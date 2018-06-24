@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36307" started-at="2018-06-23T13:05:57Z" finished-at="2018-06-23T13:06:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36307" started-at="2018-06-23T13:05:57Z" finished-at="2018-06-23T13:06:33Z">
+      <class name="com.jgive.pages.SelectProjectTestNG">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="startBrowser" is-config="true" duration-ms="11664" started-at="2018-06-23T13:05:57Z" finished-at="2018-06-23T13:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="TestSelectProject(java.lang.String, java.lang.String)[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="TestSelectProject" duration-ms="808" started-at="2018-06-23T13:06:09Z" data-provider="testData" finished-at="2018-06-23T13:06:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//div[contains(@class, 'slick-slide slick-active')][1]//div[@class='card-body Thumbnail__card-body__1wxZe']//a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//h3[@class='DonationTargetShow__project-name__2Cdf5']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSelectProject -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="quit" is-config="true" duration-ms="602" started-at="2018-06-23T13:06:09Z" finished-at="2018-06-23T13:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="startBrowser" is-config="true" duration-ms="10685" started-at="2018-06-23T13:06:10Z" finished-at="2018-06-23T13:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="TestSelectProject(java.lang.String, java.lang.String)[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="TestSelectProject" duration-ms="958" started-at="2018-06-23T13:06:21Z" data-provider="testData" finished-at="2018-06-23T13:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//div[contains(@class, 'slick-slide slick-active')][2]//div[@class='card-body Thumbnail__card-body__1wxZe']//a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//h3[@class='DonationTargetShow__project-name__2Cdf5']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSelectProject -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="quit" is-config="true" duration-ms="602" started-at="2018-06-23T13:06:22Z" finished-at="2018-06-23T13:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="startBrowser" is-config="true" duration-ms="9442" started-at="2018-06-23T13:06:22Z" finished-at="2018-06-23T13:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="TestSelectProject(java.lang.String, java.lang.String)[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="TestSelectProject" duration-ms="922" started-at="2018-06-23T13:06:32Z" data-provider="testData" finished-at="2018-06-23T13:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//div[contains(@class, 'slick-slide slick-active')][3]//div[@class='card-body Thumbnail__card-body__1wxZe']//a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//h3[@class='DonationTargetShow__project-name__2Cdf5']]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSelectProject -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.jgive.pages.SelectProjectTestNG@523884b2]" name="quit" is-config="true" duration-ms="588" started-at="2018-06-23T13:06:33Z" finished-at="2018-06-23T13:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.jgive.pages.SelectProjectTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
