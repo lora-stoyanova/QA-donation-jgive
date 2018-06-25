@@ -20,14 +20,13 @@ public class MainPage_Test {
 	@Test
 	public void Donate() {
 
-		HomePage.SelectActiveProject("2");
+		HomePage.SelectActiveProject("1");
 		DonationTargetPage.donateNowButton();
 
 		if (elementsConditions.modal_PurposeDisplayed() & elementsConditions.modal_CustomDisplayed()) {
 			ItemDonationForm.mixDonation();
-
 		} else if (elementsConditions.modal_CustomDisplayed() & !elementsConditions.modal_PurposeDisplayed()) {
-			ItemDonationForm.customDonation(14);
+			ItemDonationForm.customDonation();
 		} else if (elementsConditions.modal_PurposeDisplayed()) {
 			ItemDonationForm.purposeDonation();
 		}
