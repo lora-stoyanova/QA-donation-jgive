@@ -19,8 +19,9 @@ public class MainPage_Test {
 
 	@Test
 	public void Donate() {
-
-		HomePage.SelectActiveProject("1");
+		
+		
+		HomePage.SelectActiveProject();
 		DonationTargetPage.donateNowButton();
 
 		if (elementsConditions.modal_PurposeDisplayed() & elementsConditions.modal_CustomDisplayed()) {
@@ -29,14 +30,17 @@ public class MainPage_Test {
 			ItemDonationForm.customDonation();
 		} else if (elementsConditions.modal_PurposeDisplayed()) {
 			ItemDonationForm.purposeDonation();
+		} else if (elementsConditions.modal_SuggestedDisplayed()) {
+			ItemDonationForm.suggestedDonation();
 		}
-	}
 
-	// ItemDonationForm.makeDonation(5);
-	// CheckoutPage.gotoCart("edit");
-	// CartPage.SelectCurrency();
-	// CartPage.donateToJgiveSelect("1");
-	// CartPage.donateToJgiveOther(1000);
+		ItemDonationForm.clickDonateNowBtn();
+
+		// CheckoutPage.gotoCart("edit");
+		// CartPage.SelectCurrency();
+		// CartPage.donateToJgiveSelect("1");
+		// CartPage.donateToJgiveOther(1000);
+	}
 
 	@After
 	public void tearDown() {
